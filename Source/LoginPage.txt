@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <style type="text/css">
+        
+        .auto-style2 {
+            width: 150px;
+            height: 122px;
+        }
+
+        .auto-style3 {
+            width: 295px;
+            height: 171px;
+        }
+        .auto-style4 {
+            width: 146px;
+            height: 69px;
+        }
+    </style>
+</head>
+<body>
+    <head>
+        <body>
+            <!--<div id="header" style="width:1300px;height:500px;border:1px solid black;">
+                &nbsp;&nbsp;&nbsp;&nbsp;-->
+            <div style="bor"
+                <div id="header" style="width:1200px;height:100px;border:3px Grey;background-color: #FF9900;" >
+                    <h1 style="color:Red" style="font-size:30px"  align="center">
+                        <img alt="" class="auto-style4" src="Images/images.jpg" />WELCOME TO ONLINE CHAT APPLICATION
+                    </h1>
+                </div>
+                &nbsp;&nbsp;&nbsp;&nbsp;
+                <div id="content" style="width:500px;height:300px;border:5px Grey;">
+                    <h1 align="center">LOGIN</h1>
+                    <tr>
+                        <td>
+                            <label for="Email/phone"> &nbsp; Email/Phone Number</label>
+                            &nbsp;
+
+                            <input id="Email/phone" type="text" />
+                        </td>
+                    </tr>
+                    <br>
+                    <br>
+                    <tr>
+                        <td>
+
+                            <label for="password"> &nbsp; Password</label>
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+                            <input id="passwordt" type="text" />
+                        </td>
+                    </tr>
+                    <br><br>
+                    <tr>
+                        <td>
+                            &nbsp;<button type="button">LOGIN</button>
+                            &nbsp;&nbsp;&nbsp;
+                            <a href="http://www.w3schools.com">Forgot Password</a>
+                    </tr>
+                    </td>
+                    <br>
+                    <br>
+                    <tr>
+                        <td>
+                            <label for="ACC">Don't Have Account ?</label>
+
+                            &nbsp;&nbsp;&nbsp;&nbsp;
+                            <a href="http://www.w3schools.com">SignUp</a>&nbsp;&nbsp;<label for="Free">FOR FREE</label></div>
+            </div>
+
+            <p>
+                &nbsp;
+                <img alt="" class="auto-style2" src="Images/connecting%20friends.jpg" /> Connect With Your Friends Globally Just A Window Away!!!
+            </p>
+            <div>
+                &nbsp;<img alt="" class="auto-style3" src="Images/photo.jpg" />Share Photos/Videos with Friends </p>
+            </div>
+        </body>
+    </head>
+</body>
+</html>

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <style type="text/css">
+        
+        .auto-style4 {
+            width: 1456px;
+        }
+
+        .auto-style5 {
+            width: 772px;
+        }
+        .auto-style6 {
+            width: 658px;
+        }
+    </style>
+</head>
+<body >
+    <p>
+        &nbsp;
+    </p>
+    <div id="header"
+        <h1 style="color:Red" style= "font-size:55px" align="center"><b>FriendsList</b><img src="Images/group%20chat.jpg" style="height: 118px" />
+
+        </h1>
+    </div>
+    <br />
+    <br />
+    <div class="line">
+
+        <table cellspacing="0">
+            <tr>
+                <td><input id="Button1" type="button" value="FriendsList" /></td>
+
+                <td><input id="Button1" type="button" value="Groups" /></td>
+                <td><input id="Button1" type="button" value="ChatWindow" /></td>
+                <td><input id="Button1" type="button" value="Profile" /></td>
+                <td><input id="Button1" type="button" value="Logout" /></td>
+
+            </tr>
+        </table>
+    </div>
+    <p align="right" style="color:purple" style="font-size:25px" class="auto-style4"><b><label for="TextName"> Search Friends  </label>
+                                                                                         </b></p>
+    <p align="right" style="color:purple" style="font-size:25px" class="auto-style4"><b><label for="TextName"> Add Friends  </label></b></p>
+
+    <br />
+    <br />
+    <br />
+    <br />
+
+    <table>
+        <tr>
+            <td style="color:red" style="font-size:25px" class="auto-style5"><label for="TextName">Name of Friend : </label></td>
+            <td style="color:green" style="font-size:25px" class="auto-style6"><label for="TextName">Chat Window </label></td>
+            <td style="color:darkviolet" style="font-size:25px" class="auto-style4"><label for="TextName">Unfriend </label></td>
+
+        </tr>
+        <tr>
+            <td style="color:red" style="font-size:25px" class="auto-style5"><label for="TextName">Sirisha: </label></td>
+            <td style="color:green" style="font-size:25px" class="auto-style6"><label for="TextName">Yes/No</label></td>
+            <td style="color:blueviolet" style="font-size:25px" class="auto-style4"><label for="TextName">yes/No </label></td>
+
+        </tr>
+
+    </table>
+
+</body>
+</html>

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <style type="text/css">
+                .auto-style1 {
+            width: 175px;
+            height: 148px;
+        }
+        .auto-style2 {
+            width: 129px;
+            height: 140px;
+        }
+        .auto-style3 {
+            width: 133px;
+            height: 103px;
+        }
+        .auto-style4 {
+            width: 502px;
+        }
+        .auto-style5 {
+            width: 163px;
+            height: 106px;
+        }
+    </style>
+</head>
+<body
+    <p>
+        &nbsp;
+    </p>
+    <div id="header" 
+        <h1 style="color:blue" style= "font-size:45px" align="center">
+            <img alt="" class="auto-style1" src="Images/chatapplication.png" />Chat Window
+        </h1>
+    </div>
+    <br />
+    <br />
+    <div class="line">
+
+        <table cellspacing="0">
+            <tr>
+                <td><input id="Button1" type="button" value="FriendsList" /></td>
+
+                <td><input id="Button1" type="button" value="Groups" /></td>
+                <td><input id="Button1" type="button" value="ChatWindow" /></td>
+                <td><input id="Button1" type="button" value="Profile" /></td>
+                <td><input id="Button1" type="button" value="Logout" /></td>
+
+            </tr>
+        </table>
+    </div>
+    <p style="color:green" style="font-size:25px" class="auto-style4"><b><label for="TextName">Select Friends from Friendslist for chatting : </label></b></p>
+
+    <br />
+    <br />
+    <br />
+    <br />
+
+<table>
+    <tr>
+        <td style="color:red" style="font-size:25px" class="auto-style4"><label for="TextName">Text Message : </label></td>
+        <td>
+            <img alt="" class="auto-style3" src="Images/chatnow.png" /></td>
+    </tr>
+    <tr>
+        <td style="color:darkorange" style="font-size:25px" class="auto-style4"><label for="TextName">Video/Audio Message </label></td>
+        <td>
+            <img alt="" class="auto-style2" src="Images/video.jpg" /></td>
+    </tr>
+    <tr>
+        <td style="color:green" style="font-size:25px" class="auto-style4">images/Photo</td>
+        <td>
+            <img alt="" class="auto-style5" src="Images/picture.jpg" /></td>
+    </tr>
+</table>
+
+    
+
+</body>
+</html>

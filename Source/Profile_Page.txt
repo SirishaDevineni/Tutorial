@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <style type="text/css">
+    <!--body {background:"\\kc.umkc.edu\kc-users\home\l\ldd67\My Documents\Visual Studio 2013\Projects\WebApplication4\WebApplication4\Images\chatapplication.png"}-->
+        .auto-style1 {
+            width: 175px;
+            height: 76px;
+        }
+    </style>
+</head>
+<body 
+    <p>
+        &nbsp;
+    </p>
+    <div id="header" style="width:1200px;height:100px;border:1px solid black;background-color: #FF9900;">
+        <h1 align="center">
+            <img alt="" class="auto-style1" src="Images/chatapplication.png" />Profile Page
+        </h1>
+    </div>
+    <br />
+    <br />
+    <div class="line">
+
+        <table cellspacing="0">
+            <tr>
+                <td><input id="Button1" type="button" value="FriendsList" /></td>
+
+                <td><input id="Button1" type="button" value="Groups" /></td>
+                <td><input id="Button1" type="button" value="ChatWindow" /></td>
+                <td><input id="Button1" type="button" value="Profile" /></td>
+                <td><input id="Button1" type="button" value="Logout" /></td>
+
+            </tr>
+        </table>
+    </div>
+    <br />
+    <br />
+    <br />
+    <br />
+
+    <div align="center" class="Profile" style="width:150px;height:30px;border:1px solid black;">
+
+        <a href="http://www.w3schools.com">Account Settings</a>
+    </div>
+
+    <br />
+    <div align="center" class="Profile" style="width:150px;height:30px;border:1px solid black;">
+
+        <a href="http://www.w3schools.com">Security Settings</a>
+    </div>
+    <br />
+    <div align="center" class="Profile" style="width:150px;height:30px;border:1px solid black;">
+
+        <a href="http://www.w3schools.com">Privacy Settings</a>
+    </div>
+
+</body>
+</html>
