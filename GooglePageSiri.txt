@@ -1,0 +1,89 @@
+<html>
+<head>
+   
+<title>Google Maps API v3 Example: Directions Simple</title>
+<script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?sensor=false"></script>
+<script type="text/javascript">
+   
+</script>
+</head>
+<body onload="initialize()">
+<div id="map_canvas" style="height: 400px; width: 400px"></div>
+</body>
+</html>
+
+<div style="width:220px; height:150px;">
+    <object type="application/x-shockwave-flash" data="http://swf.yowindow.com/yowidget3.swf" width="220" height="150">
+    	<param name="movie" value="http://swf.yowindow.com/yowidget3.swf"/>
+    	<param name="allowfullscreen" value="true"/>
+    	<param name="wmode" value="opaque"/>
+    	<param name="bgcolor" value="#FFFFFF"/>
+    	<param name="flashvars" 
+    	value="location_id=gn:5350734&amp;location_name=Fremont&amp;time_format=12&amp;unit_system=us&amp;background=#FFFFFF&amp;mini_action=window&amp;copyright_bar=false"
+    />
+        <a href="http://WeatherScreenSaver.com?client=widget&amp;link=copyright"
+        style="width:220px;height:150px;display: block;text-indent: -50000px;font-size: 0px;background:#DDF url(http://yowindow.com/img/logo.png) no-repeat scroll 50% 50%;"
+        >Free Weather Widget</a>
+    </object>
+</div>
+<div style="width: 220px; height: 15px; font-size: 14px; font-family: Arial,Helvetica,sans-serif;">
+	<span style="float:left;"><a target="_top" href="http://WeatherScreenSaver.com?client=widget&amp;link=copyright" style="color: #2fa900; font-weight:bold; text-decoration:none;" title="Screen Saver">YoWindow.com</a></span>
+	<span style="float:right; color:#888888;"><a href="http://www.weather.gov" style="color: #2fa900; text-decoration:none;">NWS</a></span>
+</div>
+
+
+javascript lo
+
+
+var directionDisplay;
+var directionsService = new google.maps.DirectionsService();     
+var map;
+function initialize()
+{
+            directionsDisplay = new google.maps.DirectionsRenderer();       
+    var center = new google.maps.LatLng(0, 0);    
+    var myOptions =
+    {
+            zoom:7,
+            mapTypeId: google.maps.MapTypeId.ROADMAP,
+            center: center
+    }
+    map = new google.maps.Map(document.getElementById("map_canvas"), myOptions);
+    directionsDisplay.setMap(map);
+    var start = "guntur";   
+    var end = "Narasaraopet";  
+    var request =
+    {
+            origin:start,
+            destination:end,
+            travelMode: google.maps.DirectionsTravelMode.DRIVING          
+    };
+    directionsService.route(request, function(response, status)
+    {
+            if (status == google.maps.DirectionsStatus.OK)
+            {
+            directionsDisplay.setDirections(response);        
+            }
+    });
+}
+  css styles lo
+
+
+<div style="width:220px; height:150px;">
+    <object type="application/x-shockwave-flash" data="http://swf.yowindow.com/yowidget3.swf" width="220" height="150">
+    	<param name="movie" value="http://swf./yowidget3.swf"/>
+    	<param name="allowfullscreen" value="true"/>
+    	<param name="wmode" value="opaque"/>
+    	<param name="bgcolor" value="#FFFFFF"/>
+    	<param name="flashvars" 
+    	value="location_id=gn:5350734&amp;location_name=climate&amp;background=#FFFFFF&amp;mini_action=window&amp;copyright_bar=false"
+    />
+        <a href="http://WeatherScreenSaver.com?client=widget&amp;link=copyright"
+        style="width:220px;height:150px;display: block;text-indent: -50000px;font-size: 0px;background:#DDF url(http:///img/logo.png) no-repeat scroll 50% 50%;"
+        >Weather Widget</a>
+    </object>
+</div>
+<div style="width: 220px; height: 15px; font-size: 14px; font-family: Arial,Helvetica,sans-serif;">
+	<span style="float:left;"><a target="_top" href="http://WeatherScreenSaver.com?client=widget&amp;link=copyright" style="color: #2fa900; font-weight:bold; text-decoration:none;" title="Free Weather Widget">YoWindow.com</a></span>
+	<span style="float:right; color:#888888;"><a href="http://www.weather.gov" style="color: #2fa900; text-decoration:none;">NWS</a></span>
+</div>

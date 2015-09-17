@@ -1,0 +1,26 @@
+<html>
+<head>
+
+<style>
+h1
+{ 
+color:blue;
+}
+
+p
+{
+color:green;
+}
+</style>
+</head>
+<body bgcolor=orange>
+<center><h1 style="color:blue">Login page</h1></center>
+
+<center>UserName<input type ="text" name="username"><br><br><br>
+Password<input type="text" name="Password"><br><br>
+
+<center><a href="file:///kc.umkc.edu/kc-users/home/l/ldd67/Desktop/Signup.html"><input type="button" value="login"></a></center>
+<center><p style="color:green">Don't Have Account Register Here</p>
+<a href="file:///C:/Users/Administrator.user-PC/Desktop/signup.html">Register</a>
+</body>
+</html>
